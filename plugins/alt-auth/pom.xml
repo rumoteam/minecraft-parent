@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.github.rumoteam.rumo-parent.minecraft-parent</groupId>
+		<artifactId>plugins</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>com.github.rumoteam.rumo-parent.minecraft-parent.plugins</groupId>
+	<artifactId>alt-auth</artifactId>
+	<packaging>pom</packaging>
+
+
+	<modules>
+		<module>alt-auth-libs</module>
+		<module>alt-auth-client</module>
+		<module>alt-auth-Paper1165</module>
+	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>${netty-all.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${apache.commons.lang3.version}</version>
+		</dependency>
+
+	</dependencies>
+</project>

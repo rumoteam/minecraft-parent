@@ -1,0 +1,6 @@
+main: com.github.rumoteam.minecraft.server.web.respack.Plugin
+name: resourcepack-sender
+version: '1.0'
+description: Web Server for resource pack
+author: RumoTeam
+website: github.com

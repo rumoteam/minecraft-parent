@@ -1,0 +1,10 @@
+main: com.github.rumoteam.minecraft.plugins.altauth.init.Plugin
+name: alt-auth
+version: '1.0'
+description: Plugin etc
+author: RumoTeam
+website: github.com
+commands:
+  alt-aut-allow:
+    description: allow registration or not 
+    usage : /<command> [true|false]

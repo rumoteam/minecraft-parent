@@ -1,0 +1,6 @@
+main: com.github.rumoteam.minecraft.plugins.bordercontrol.init.Plugin
+name: bordercontrol
+version: '1.0'
+description: Plugin etc
+author: RumoTeam
+website: github.com

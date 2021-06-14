@@ -1,0 +1,6 @@
+main: com.github.rumoteam.minecraft.savevillagers.init.Plugin
+name: savevillagers
+version: '1.0'
+description: Plugin to save the lives of villagers
+author: RumoTeam
+website: github.com
